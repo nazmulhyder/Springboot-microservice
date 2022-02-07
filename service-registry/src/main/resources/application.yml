@@ -1,0 +1,8 @@
+server:
+  port: 8761
+
+# this is itself a server. so there is no need to register any server
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
